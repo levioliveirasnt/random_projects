@@ -57,12 +57,12 @@ while(tentativas > 0):
     print_letras_tentadas()
 
     print("\n\nDigite uma letra maiuscula e sem acento: ")
-    letra = input()
+    l = input()
 
-    if len(letra) > 1 or not letra.isupper():
-        print(f"\nTem que ser letra e maiuscula, jogador!\n")
+    if len(l) > 1 or not letra.isaplha():
+        print(f"\nTem que ser letra, jogador!\n")
         continue
-
+    letra = l.upper()
     if letra in letras_tentadas:
         print("\nEssa letra ja foi tentada anteriomente, jogador. - to te tando uma colher de cha, nao vou diminuir teus pontos :)\n")
         continue
