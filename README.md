@@ -1,6 +1,6 @@
 # 🎯 Jogo da Forca (Hangman)
 
-![Language](https://img.shields.io/badge/language-C-blue.svg)
+![Language](https://img.shields.io/badge/language-python-blue.svg)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
