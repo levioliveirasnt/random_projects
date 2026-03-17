@@ -21,9 +21,6 @@ O jogador deve adivinhar a palavra secreta letra por letra antes de esgotar o n√
 
 ![Demo do jogo](assets/demo.png)
 
-Ou veja a vers√£o em terminal:
-https://asciinema.org/
-
 ```bash
 ===== JOGO DA FORCA =====
 
