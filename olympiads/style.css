@@ -18,6 +18,10 @@ body {
 main {
     flex:1;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 header {
     height: 80px;
 
@@ -27,15 +31,27 @@ header {
     font-weight: 900;
     font-size: 24px;
 
-    padding: 0 20px;
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 header img {
-    height: 60px;
+    height: 45px;
     width: auto;
+}
+.our-logo { 
+    gap: 12px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer {
+    background-color: #d8d5d5;
+    color: #333;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
 }
 .olimpiadas {    
     display: flex;
@@ -70,10 +86,31 @@ header img {
     text-align: center;
     color: #333;
 }
-footer {
-    background-color: #d8d5d5;
-    color: #333;
-    text-align: center;
-    padding: 2px;
-    font-size: 20px;
+.participants, .card {
+    width: 100%;
+    margin-top: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.who, .obi {
+    border:#347923 12px solid;
+    border-radius: 12px;
+
+    margin-bottom: 100px;
+    padding: 12px;
+    gap: 20px;
+
+    display: flex;
+}
+.who img, .obi img {
+    width: 300px;
+    height: auto;
+
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
