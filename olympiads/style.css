@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex:1;
+}
+header {
+    height: 80px;
+
+    background-color: #347923;
+    color: #f5f5f5;
+
+    font-weight: 900;
+    font-size: 24px;
+
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header img {
+    height: 60px;
+    width: auto;
+}
+.olimpiadas {    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.olimpiada {
+    height: 300px;
+    width: 200px;   
+    padding: 10px;
+    margin: 15px;
+
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 16px;
+    border-color: #347923;
+
+
+    background-color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.olimpiada-imagem {
+    height: 150px;
+    width: 150px;
+}
+.olimpiada-texto{
+    text-align: center;
+    color: #333;
+}
+footer {
+    background-color: #d8d5d5;
+    color: #333;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+}
